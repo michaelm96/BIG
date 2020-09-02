@@ -1,0 +1,8 @@
+.formStyle{
+    min-height: 60vh;
+    margin: 5vh auto;
+    width: 25vw;
+    height: 20vh;
+    border: 2px outset grey;
+    padding: 10vh
+}
