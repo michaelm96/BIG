@@ -5,6 +5,17 @@ Surveyor App
 ```
 $ nodemon
 ```
+2. (this is one time only) Because the only way to login is you must have an account and as the first person the only way you can login is by registering yourself first using app like Postman, after that click "Body" then "x-www-form-urlencoded" fill with key-value pair like below
+```
+{
+    firstName: (your first name),
+    lastName: (your last name),
+    email: (your email),
+    password: (your password),
+    role: "admin",
+}
+```
+3. Then you can go to Client side and login with email and password you just filled in and you can register another account there
 
 #Front-End
 1. Run Client with
